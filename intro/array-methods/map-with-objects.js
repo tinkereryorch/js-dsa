@@ -1,14 +1,14 @@
-const customerAccounts = [
+const customers = [
     {
-        accountNumber: 7645,
+        customerId: 7645,
         name: 'Trucks Ltd.'
     },
     {
-        accountNumber: 8431,
+        customerId: 8431,
         name: 'Pet Care Ltd.'
     }
 ];
 
-const accountNumbers = customerAccounts.map((customer) => customer.accountNumber);
+const customerIds = customers.map((customer) => customer.customerId);
 
-console.log(accountNumbers);
+console.log(customerIds);
