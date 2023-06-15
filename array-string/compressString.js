@@ -23,6 +23,5 @@ var compressString = function(chars) {
     return write; 
 };
 
-
 var result = compressString(["a","a","b","b","c","c","c"]);
 console.log(result);
